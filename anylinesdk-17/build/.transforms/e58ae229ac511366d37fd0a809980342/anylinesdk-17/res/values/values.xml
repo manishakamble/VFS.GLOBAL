@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="overlay_drawable"/>
+    <attr format="color" name="overlay_outside_color"/>
+    <attr format="integer" name="preferred_picture_height"/>
+    <attr format="integer" name="preferred_picture_width"/>
+    <attr format="integer" name="preferred_preview_height"/>
+    <attr format="integer" name="preferred_preview_width"/>
+    <attr format="reference" name="ttlm_defaultStyle"/>
+    <color name="anyline_blue_darker">#AA007ACC</color>
+    <color name="anyline_red">#AAE53F16</color>
+    <color name="bb_background">#efefef</color>
+    <color name="bg_grey">#47494b</color>
+    <color name="black">#000000</color>
+    <color name="ci_yellow_primary">#FFCE00</color>
+    <color name="ci_yellow_secondary">#EF6C00</color>
+    <color name="colorAccent">#009999</color>
+    <color name="colorPrimary">#0099ff</color>
+    <color name="colorPrimaryDark">#007acc</color>
+    <color name="colorTooltip">#fff399</color>
+    <color name="divider">#999999</color>
+    <color name="error_message_bg">#fffff399</color>
+    <color name="scrabble_green">#327466</color>
+    <color name="swiss_post_yellow">#FFCC01</color>
+    <color name="tetragon_area_color">#403F51B5</color>
+    <color name="tetragon_area_color_accent">#40FF4081</color>
+    <color name="tetragon_corner_background">#FFFFFF</color>
+    <color name="tetragon_corner_stroke_color">#000000</color>
+    <color name="tetragon_crosshair_color">#FF4081</color>
+    <color name="tetragon_edge_color">#3F51B5</color>
+    <color name="tetragon_edge_color_accent">#FF4081</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="AnylineBaseModuleView">
+
+        <attr format="boolean" name="beep_on_result"/>
+        <attr format="boolean" name="vibrate_on_result"/>
+        <attr format="boolean" name="blink_animation_on_result"/>
+        <attr format="boolean" name="cancel_on_result"/>
+
+        <attr format="color" name="cutout_feedback_stroke_color"/>
+
+        <attr format="integer" name="visual_feedback_style">
+            <enum name="rect" value="0"/>
+            <enum name="contour_rect" value="1"/>
+            <enum name="contour_underline" value="2"/>
+            <enum name="contour_point" value="3"/>
+        </attr>
+        <attr format="color" name="visual_feedback_stroke_color"/>
+        <attr format="integer" name="visual_feedback_stroke_width_in_dp"/>
+        <attr format="color" name="visual_feedback_fill_color"/>
+        <attr format="integer" name="visual_feedback_corner_radius_in_dp"/>
+
+        <attr format="integer" name="visual_feedback_animation_style">
+            <enum name="traverse_single" value="0"/>
+            <enum name="kitt" value="1"/>
+            <enum name="traverse_multi" value="2"/>
+            <enum name="resize" value="3"/>
+            <enum name="blink" value="4"/>
+            <enum name="pulse" value="5"/>
+            <enum name="pulse_random" value="6"/>
+        </attr>
+        <attr format="integer" name="visual_feedback_animation_duration"/>
+        <attr format="integer" name="visual_feedback_redraw_timeout"/>
+    </declare-styleable>
+    <declare-styleable name="AnylineView">
+        <attr format="integer" name="default_camera">
+            <enum name="back" value="1"/>
+            <enum name="front" value="2"/>
+            <enum name="external" value="4"/>
+        </attr>
+        <attr format="integer" name="fallback_cameras">
+            <flag name="back" value="1"/>
+            <flag name="front" value="2"/>
+            <flag name="external" value="4"/>
+        </attr>
+        <attr name="preferred_preview_width"/>
+        <attr name="preferred_preview_height"/>
+        <attr name="preferred_picture_width"/>
+        <attr name="preferred_picture_height"/>
+        <attr format="integer" name="cutout_alignment">
+            <enum name="top" value="0"/>
+            <enum name="top_half" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="bottom_half" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+        <attr format="integer" name="cutout_width"/>
+        <attr format="integer" name="cutout_max_width_percent"/>
+        <attr format="integer" name="cutout_max_height_percent"/>
+        <attr format="integer" name="cutout_offset_x"/>
+        <attr format="integer" name="cutout_offset_y"/>
+        <attr format="integer" name="cutout_style">
+            <enum name="rect" value="0"/>
+            <enum name="image" value="1"/>
+        </attr>
+        <attr format="integer" name="cutout_stroke_width_in_dp"/>
+        <attr format="color" name="cutout_stroke_color"/>
+
+        <attr format="integer" name="cutout_ratio_from_size_width"/>
+        <attr format="integer" name="cutout_ratio_from_size_height"/>
+        <attr format="integer" name="cutout_rect_corner_radius_in_dp"/>
+
+        <attr format="reference" name="cutout_drawable"/>
+
+        <attr format="integer" name="cutout_crop_padding_x"/>
+        <attr format="integer" name="cutout_crop_padding_y"/>
+        <attr format="integer" name="cutout_crop_offset_x"/>
+        <attr format="integer" name="cutout_crop_offset_y"/>
+
+        <attr format="color" name="cutout_outside_color"/>
+
+        <attr format="integer" name="flash_mode">
+            <enum name="none" value="0"/>
+            <enum name="manual" value="1"/>
+            <enum name="auto" value="2"/>
+        </attr>
+
+        <attr format="integer" name="flash_alignment">
+            <enum name="top_left" value="0"/>
+            <enum name="top_right" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom_left" value="3"/>
+            <enum name="bottom_right" value="4"/>
+            <enum name="bottom" value="5"/>
+        </attr>
+
+        <attr format="reference" name="flash_image_on"/>
+        <attr format="reference" name="flash_image_off"/>
+        <attr format="reference" name="flash_image_auto"/>
+
+    </declare-styleable>
+    <declare-styleable name="CameraView">
+        <attr format="boolean" name="api_2_enabled"/>
+    </declare-styleable>
+    <declare-styleable name="TooltipLayout">
+        <attr format="dimension" name="ttlm_padding"/>
+        <attr format="color" name="ttlm_strokeColor"/>
+        <attr format="color" name="ttlm_backgroundColor"/>
+        <attr format="dimension" name="ttlm_strokeWeight"/>
+        <attr format="dimension" name="ttlm_cornerRadius"/>
+        <attr format="float" name="ttlm_arrowRatio"/>
+        <attr name="android:textAppearance"/>
+        <attr name="android:gravity"/>
+        <attr format="reference" name="ttlm_overlayStyle"/>
+        <attr format="string" name="ttlm_font"/>
+
+        <!-- elevation of the tooltip. Works only on non custom views -->
+        <attr format="dimension" name="ttlm_elevation"/>
+    </declare-styleable>
+    <declare-styleable name="TooltipOverlay">
+        <attr name="android:color"/>
+        <attr name="android:alpha"/>
+        <attr format="integer" name="ttlm_repeatCount"/>
+        <attr format="integer" name="ttlm_duration"/>
+        <attr name="android:layout_margin"/>
+    </declare-styleable>
+    <dimen name="DEFAULT_PADDINGx2">16dp</dimen>
+    <dimen name="DEFAULT_PADDINGx3">24dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottom_sheet_arrow_height">13dp</dimen>
+    <dimen name="bottom_sheet_arrow_padding_top">3dp</dimen>
+    <dimen name="bottom_sheet_height">67dp</dimen>
+    <dimen name="bottom_sheet_height_divider">1px</dimen>
+    <dimen name="bottom_sheet_image_button_size">42dp</dimen>
+    <dimen name="bottom_sheet_imageview_padding">4dp</dimen>
+    <dimen name="bottom_sheet_margin_divider_expandable_part">8dp</dimen>
+    <dimen name="bottom_sheet_margin_expandable_part">10dp</dimen>
+    <dimen name="bottom_sheet_margin_start_expandable_part">16dp</dimen>
+    <dimen name="bottom_sheet_padding">6dp</dimen>
+    <dimen name="bottom_sheet_padding_text_expandable_part">8dp</dimen>
+    <dimen name="bottom_sheet_peek_height">80dp</dimen>
+    <dimen name="bottom_sheet_scancount_height">16dp</dimen>
+    <dimen name="bottom_sheet_scancount_padding">14dp</dimen>
+    <dimen name="bottom_sheet_text_size_count">15sp</dimen>
+    <dimen name="crop_view_layout_margin">8dp</dimen>
+    <dimen name="magnify_border">2dp</dimen>
+    <dimen name="magnify_size">100dp</dimen>
+    <dimen name="nu_DEFAULT_PADDING">8dp</dimen>
+    <dimen name="nu_fab_margin">16dp</dimen>
+    <dimen name="polygonViewCircleWidth">30dp</dimen>
+    <dimen name="polygonViewStrokeWidth">1dp</dimen>
+    <dimen name="text_size_error_message">15sp</dimen>
+    <dimen name="ttlm_default_corner_radius">8dip</dimen>
+    <dimen name="ttlm_default_elevation">4dp</dimen>
+    <dimen name="ttlm_default_padding">20dip</dimen>
+    <dimen name="ttlm_default_stroke_weight">0dip</dimen>
+    <integer name="bottom_sheet_weight0">1</integer>
+    <integer name="bottom_sheet_weight1">1</integer>
+    <integer name="bottom_sheet_weight2">1</integer>
+    <integer name="bottom_sheet_weight3">1</integer>
+    <integer name="bottom_sheet_weight4">1</integer>
+    <integer name="delay_after_scan_paused">0</integer>
+    <integer name="delay_after_successful_scan">1000</integer>
+    <integer name="error_message_delay">2000</integer>
+    <string name="allow_camera_permission">Access to the camera is required. Please grant the corresponding permission.</string>
+    <string name="bottombar_empty_extension_not">If the bottombar extension contains controls the bottom bar must not be empty</string>
+    <string name="cancel">Cancel</string>
+    <string name="colon">:</string>
+    <string name="confirm">Confirm</string>
+    <string name="contact_info">Contact us</string>
+    <string name="customRatioValueShortSide_too_high">CustomRatioValueShortSide must not be bigger than value CustomRatioValueLongSide</string>
+    <string name="custom_ratio_value_must_not_be_null">The value for CustomRatioValueShortSide and CustomRatioValueLongSide must not be 0</string>
+    <string name="default_web_client_id" translatable="false">658749195942-dv9cre7f449nag78qs8skjmo6crhl74j.apps.googleusercontent.com</string>
+    <string name="document_error_closer">Come closer</string>
+    <string name="document_error_format">Unrecognised format</string>
+    <string name="document_error_not_sharp">Document is not sharp.\n\nPlease hold the camera steadily and ensure the document is in focus</string>
+    <string name="document_error_shake">Shake detected\n\nPlease hold still</string>
+    <string name="document_error_skew_too_high">Document is skewed.\n\nPlace the camera directly above the document</string>
+    <string name="document_error_too_dark">The image is too dark.\n\nPlease ensure there is enough light</string>
+    <string name="document_error_unknown">Unknown Failure</string>
+    <string name="document_processing_picture">Processing the Picture. Please wait</string>
+    <string name="document_processing_picture_header">Processing</string>
+    <string name="duplicate_control_not_allowed">Duplicate controls are not allowed on the bottom bar</string>
+    <string name="firebase_database_url" translatable="false">https://anylinesdk-android.firebaseio.com</string>
+    <string name="flash_auto">Auto</string>
+    <string name="flash_mode_auto"><![CDATA[Flash is <b>Auto</b>]]></string>
+    <string name="flash_mode_off"><![CDATA[Flash is <b>OFF</b>]]></string>
+    <string name="flash_mode_on"><![CDATA[Flash is <b>ON</b>]]></string>
+    <string name="flash_off">Off</string>
+    <string name="flash_on">On</string>
+    <string name="force_cancel_app">Are you sure you want to exit?\n\nEvery Scan will be deleted!</string>
+    <string name="format">Format</string>
+    <string name="format_a4">A4</string>
+    <string name="format_business_card">Business Card</string>
+    <string name="format_compliment_slip">Compliment Slip</string>
+    <string name="format_custom_ratio">Custom Ratio</string>
+    <string name="format_landscape">Landscape</string>
+    <string name="format_letter">Letter</string>
+    <string name="format_no">no Format selected - all Portrait Formats will be detected</string>
+    <string name="format_portrait">Portrait</string>
+    <string name="format_scan">Scan Formats:</string>
+    <string name="format_select">Please select formats</string>
+    <string name="gcm_defaultSenderId" translatable="false">658749195942</string>
+    <string name="google_api_key" translatable="false">AIzaSyB-_T4tGonOmS5fiDjPOSTtUGCa4Umw5sg</string>
+    <string name="google_app_id" translatable="false">1:658749195942:android:41939d4a44274aaa</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB-_T4tGonOmS5fiDjPOSTtUGCa4Umw5sg</string>
+    <string name="google_storage_bucket" translatable="false">anylinesdk-android.appspot.com</string>
+    <string name="index_in_bottom_bar_too_high">Place of the bottom bar must be less than %d</string>
+    <string name="license_expiry_info">Your license has expired.</string>
+    <string name="maxSize_medium_lt_large">ReducePictureSize: value for maxSizeMedium must be less than value for maxSizeLarge"</string>
+    <string name="maxSize_small_lt_medium">ReducePictureSize: value for maxSizeSmall must be less than value for maxSizeMedium"</string>
+    <string name="no">No</string>
+    <string name="nu_format_control_not_visible_but_formats_exist">You do not show the Format control for the format dialog, however formats (A4, Letter, …) should be shown in this dialog</string>
+    <string name="nu_format_control_visible_but_no_single_format">You show the Format control for the format dialog, but no format (A4, Letter, …) will be shown in this dialog</string>
+    <string name="ok">OK</string>
+    <string name="ok_cancel_manual_not_on_extension">The OK-, Cancel- and Manual-Picture-controls must not be placed on the extension part of the bottom bar</string>
+    <string name="ok_control_missing">If the mode control is shown or mode is set to multiple scans the OK control must be shown as well</string>
+    <string name="ok_control_not_required">If you do not show the mode control and if mode is set to single scans the OK control is not valid</string>
+    <string name="open_permission_settings">Open Settings</string>
+    <string name="picture_size">Picture size:</string>
+    <string name="portraitIsDefault"><![CDATA[
+        No Format has been selected<br>
+        <br>
+        <b>All Portrait Formats</b> will be detected
+        ]]></string>
+    <string name="project_id" translatable="false">anylinesdk-android</string>
+    <string name="resize_picture">Reduce picture size</string>
+    <string name="scan_mode_multiple_pages"><![CDATA[Scan <b>multiple pages</b>]]></string>
+    <string name="scan_mode_single_page"><![CDATA[Scan a <b>single page</b>]]></string>
+    <string name="scanning_paused">Scanning paused</string>
+    <string name="select_max_height_width">Select the maximum height or width of your pictures:</string>
+    <string name="size_custom">Custom</string>
+    <string name="size_custom_part1">Custom (max. </string>
+    <string name="size_custom_part2">pixels)</string>
+    <string name="size_custom_ratio">Custom Ratio Size:</string>
+    <string name="size_dont_scale">Do not reduce size</string>
+    <string name="size_large">Large (max %1$d pixels)</string>
+    <string name="size_medium">Medium (max %1$d pixels)</string>
+    <string name="size_small">Small (max %1$d pixels)</string>
+    <string name="value_must_not_be_empty">Value must not be empty</string>
+    <string name="wrongColorLength">JSON-Parameter: wrong length of color - should be 6 or 8 digits (0..9, A..F, a..f): </string>
+    <string name="wrongColorValue">JSON-Parameter: wrong value for color: </string>
+    <string name="yes">Yes</string>
+    <style name="ToolTipAltAnimation">
+        <item name="android:windowExitAnimation">@anim/custom_anim_exit</item>
+        <item name="android:windowEnterAnimation">@anim/custom_anim_enter</item>
+    </style>
+    <style name="ToolTipAltStyle" parent="ToolTipLayoutDefaultStyle">
+        <item name="ttlm_padding">16dp</item>
+        <item name="ttlm_backgroundColor">@color/colorTooltip</item>
+        <item name="ttlm_cornerRadius">6dp</item>
+        <item name="ttlm_arrowRatio">1.2</item>
+        <item name="ttlm_overlayStyle">@style/ToolTipOverlayAltStyle</item>
+    </style>
+    <style name="ToolTipLayoutDefaultStyle">
+        <item name="ttlm_padding">@dimen/ttlm_default_padding</item>
+        <item name="ttlm_strokeColor">@android:color/transparent</item>
+        <item name="ttlm_backgroundColor">@color/colorTooltip</item>
+        <item name="ttlm_strokeWeight">@dimen/ttlm_default_stroke_weight</item>
+        <item name="ttlm_cornerRadius">@dimen/ttlm_default_corner_radius</item>
+        <item name="ttlm_arrowRatio">1.4</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="ttlm_overlayStyle">@style/ToolTipOverlayDefaultStyle</item>
+        <item name="ttlm_elevation">@dimen/ttlm_default_elevation</item>
+    </style>
+    <style name="ToolTipOverlayAltStyle" parent="ToolTipOverlayDefaultStyle">
+        <item name="android:color">#FF333333</item>
+        <item name="android:alpha">0.3</item>
+    </style>
+    <style name="ToolTipOverlayDefaultStyle">
+        <item name="android:color">?attr/colorAccent</item>
+        <item name="ttlm_repeatCount">99</item>
+        <item name="ttlm_duration">600</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+</resources>

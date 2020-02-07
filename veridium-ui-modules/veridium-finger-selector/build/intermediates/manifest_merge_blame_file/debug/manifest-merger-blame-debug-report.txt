@@ -1,0 +1,25 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.veridiumid.sdk.fingerselector"
+4    android:versionName="1.7" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="16"
+7-->D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-finger-selector\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="27" />
+8-->D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-finger-selector\src\main\AndroidManifest.xml
+9
+10    <application
+10-->D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-finger-selector\src\main\AndroidManifest.xml:3:5-12:19
+11        android:allowBackup="true"
+11-->D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-finger-selector\src\main\AndroidManifest.xml:4:9-35
+12        android:supportsRtl="true" >
+12-->D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-finger-selector\src\main\AndroidManifest.xml:5:9-35
+13        <activity android:name="com.veridiumid.sdk.fingerselector.FingerSelectionActivity" >
+13-->D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-finger-selector\src\main\AndroidManifest.xml:7:9-10:20
+13-->D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-finger-selector\src\main\AndroidManifest.xml:8:13-85
+14            android:screenOrientation="portrait">
+15        </activity>
+16    </application>
+17
+18</manifest>

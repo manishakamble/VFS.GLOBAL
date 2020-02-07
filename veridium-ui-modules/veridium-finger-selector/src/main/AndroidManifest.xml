@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.veridiumid.sdk.fingerselector">
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity
+            android:name="com.veridiumid.sdk.fingerselector.FingerSelectionActivity">
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_colorAccent">#FFFFFF</color>
+    <color name="theme_colorPrimaryDark">#303F9F</color>
+    <color name="theme_colorPrimary">#3F51B5</color>
+    <color name="theme_colorWindowBackground">#666</color>
+    <color name="theme_colorButtonNormal">#2196f3</color>
+    <color name="theme_colorControlNormal">#757575</color>
+    <color name="theme_colorControlActivated">#FF6E40</color>
+    <color name="theme_colorControlHighlight">#FF4081</color>
+    <color name="theme_colorSwitchThumbNormal">#BDBDBD</color>
+    <color name="theme_colorEdgeEffect">#FF4081</color>
+
+    <color name="dark_blue">#025783</color>
+    <color name="dark_yellow">#CCC2A1</color>
+    <color name="light_gray">#F4F4F4</color>
+    <color name="action_bar_blue">#00ADEF</color>
+    <color name="creme">#F3F0E7</color>
+    <color name="mask_color">#ebf0ff</color>
+
+    <!-- FLOATING ACTION BUTTON -->
+    <color name="material_blue_500">#5677fc</color>
+    <color name="colorPrimary">#38C0CC</color>
+    <color name="colorPrimaryDark">#0F90BE</color>
+    <color name="colorAccent">#0B5671</color>
+    <color name="callToAction">#F78D22</color>
+    <color name="ripple">#F06292</color>
+    <color name="accent">#e91e63</color>
+    <color name="accent_pressed">#C2185B</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_darkBlue">#025783</color>
+    <color name="color_darkCyan">#00ADEF</color>
+
+
+    <color name="fourf_default_ui_green">#0BA04A</color>
+    <color name="fourf_default_ui_gray">#96596966</color>
+    <color name="fourf_default_ui_red">#ff4a43</color>
+    <color name="fourf_default_ui_blue">#1D91BC</color>
+
+    <color name="fourf_new_purple">#8d6aab</color>
+    <color name="fourf_new_green">#64b0a2</color>
+
+    <color name="veridium_blue">#af1b90be</color>
+    <color name="veridium_text_color">#666666</color>
+    <color name="veridium_bar_color">#333333</color>
+    <color name="veridium_light_gray_background_color">#F4F4F4</color>
+</resources>

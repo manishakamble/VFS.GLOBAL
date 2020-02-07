@@ -1,0 +1,25 @@
+{
+    "comment": "Auto generated file. Manual changes will be overwritten.",
+    "immediateAssets": {
+        "anyline/module_anyline_ocr/anyline_ocr_auto.ale": "6fbd0f53f69a5afe9d08173ad5babcb7",
+        "anyline/module_anyline_ocr/anyline_ocr_auto_any.ale": "557425a35935e7592fc57b6a3c3a03c6",
+        "anyline/module_anyline_ocr/anyline_ocr_grid.ale": "9b92493ed30271b969eb7e2cc0119a92",
+        "anyline/module_anyline_ocr/anyline_ocr_grid_any.ale": "1f60746c0efaa78f0728be8bddd9d899",
+        "anyline/module_anyline_ocr/anyline_ocr_line.ale": "988a81021755c7546e45a6e151677c0d",
+        "anyline/module_anyline_ocr/anyline_ocr_line_any.ale": "645c235802b834d0151b56ed7348b6ba",
+        "anyline/module_anyline_ocr/container_scanner.ale": "367732aa309b1a8e71220361a9b17c43",
+        "anyline/module_anyline_ocr/container_scanner_vertical.ale": "b03ab1f9d904ef0dc55a03a49ae15424",
+        "anyline/module_anyline_ocr/cow_tag_scanner.ale": "b6138fd05eec06f12926b0535e4dd0b1",
+        "anyline/module_anyline_ocr/tin.ale": "5f2d7f1c88e6ff04dad2ce1c0a50a446",
+        "anyline/module_anyline_ocr/trained_models/TINclass81000UnifiedLite.any": "e45bc31f77c9bae6ff8cc16154bf7d68",
+        "anyline/module_anyline_ocr/trained_models/USNr.any": "9b4ad56ea9eeb31efcbf82c5f3e0b69e",
+        "anyline/module_anyline_ocr/trained_models/VIN.any": "9aef3ed4ee9303f8da6eb1da69a041e4",
+        "anyline/module_anyline_ocr/trained_models/classification_80kUpDownWITHVALID.any": "4a2c70a57fb92bfd1bf33800e4d7b6e9",
+        "anyline/module_anyline_ocr/trained_models/classification_84k.any": "bc068e370cb0ff4f07203c29bbf05d20",
+        "anyline/module_anyline_ocr/trained_models/comb_rw_10Lite.any": "782d579706fd3cec4884c25f9e8d17b7",
+        "anyline/module_anyline_ocr/vin.ale": "ce73e9592e349cd8fb8bb459eda80ced"
+    },
+    "lazyAssets": {
+        
+    }
+}

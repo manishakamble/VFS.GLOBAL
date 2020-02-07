@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_epassport_capture_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:fontFamily="@font/graphik"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:text="@string/activity_epassport_capture_cancel"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_epassport_capture_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activity_epassport_capture_title" />
+
+    <TextView
+        android:id="@+id/activity_epassport_capture_title"
+        style="@style/Tascent.Toolbar.ReviewTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/graphik_medium"
+        android:text="@string/activity_epassport_capture_title"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/activity_epassport_capture_subtitle"
+        style="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/activity_epassport_capture_subtitle"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_epassport_capture_title"
+        app:layout_constraintRight_toRightOf="@+id/activity_epassport_capture_title"
+        app:layout_constraintTop_toBottomOf="@id/activity_epassport_capture_title" />
+
+    <TextView
+        android:id="@+id/activity_epassport_capture_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/graphik"
+        android:gravity="center"
+        android:text="@string/activity_epassport_capture_info"
+        android:textColor="@color/dialogContentColorDark"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_epassport_capture_subtitle" />
+
+    <com.tascent.mx.android.sdk.internal.views.ComplexProgressView
+        android:id="@+id/activity_epassport_capture_progress"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginRight="55dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_epassport_capture_info"
+        app:progressColor="@color/colorAccent"
+        app:progressFailureColor="@color/colorAccent"
+        app:progressSuccessColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/activity_epassport_capture_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_epassport_capture_progress"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_epassport_capture_progress"
+        app:layout_constraintRight_toRightOf="@+id/activity_epassport_capture_progress"
+        app:layout_constraintTop_toBottomOf="@+id/activity_epassport_capture_info"
+        app:layout_constraintTop_toTopOf="@+id/activity_epassport_capture_progress" />
+
+    <TextView
+        android:id="@+id/activity_epassport_capture_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45.5dp"
+        android:text="@string/activity_epassport_capture_message_not_detected"
+        android:textColor="@color/dialogContentColorDark"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_epassport_capture_image" />
+
+    <ImageView
+        android:id="@+id/activity_epassport_capture_iris"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/activity_epassport_capture_face"
+        app:layout_constraintTop_toBottomOf="@+id/activity_epassport_capture_message"
+        app:srcCompat="@drawable/ic_epassport_iris" />
+
+    <ImageView
+        android:id="@+id/activity_epassport_capture_face"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintLeft_toRightOf="@+id/activity_epassport_capture_iris"
+        app:layout_constraintRight_toLeftOf="@+id/activity_epassport_capture_fingerprint"
+        app:layout_constraintTop_toBottomOf="@+id/activity_epassport_capture_message"
+        app:srcCompat="@drawable/ic_epassport_face" />
+
+    <ImageView
+        android:id="@+id/activity_epassport_capture_fingerprint"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintLeft_toRightOf="@+id/activity_epassport_capture_face"
+        app:layout_constraintRight_toLeftOf="@+id/activity_epassport_capture_mrz"
+        app:layout_constraintTop_toBottomOf="@+id/activity_epassport_capture_message"
+        app:srcCompat="@drawable/ic_epassport_finger" />
+
+    <ImageView
+        android:id="@+id/activity_epassport_capture_mrz"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="60dp"
+        app:layout_constraintLeft_toRightOf="@+id/activity_epassport_capture_fingerprint"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_epassport_capture_message"
+        app:srcCompat="@drawable/ic_epassport_biographics" />
+</androidx.constraintlayout.widget.ConstraintLayout>

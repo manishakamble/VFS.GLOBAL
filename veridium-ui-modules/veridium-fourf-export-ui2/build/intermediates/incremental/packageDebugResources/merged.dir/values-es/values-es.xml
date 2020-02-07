@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="continue_txt">CONTINUAR</string>
+    <string name="enroll">Inscribirse</string>
+    <string name="export">Exportar</string>
+    <string name="instructional_text">Coloque su mano a la vista de la cámara trasera del teléfono, más o menos en la guía.
+        Mantente firme y mantén tus dedos juntos.</string>
+    <string name="instructions_header">Dirección</string>
+</resources>

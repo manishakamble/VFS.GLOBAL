@@ -1,0 +1,100 @@
+<resources>
+    <string name="veridium_fourf_biometrics_activity_4_finger_touchlessid">4 Fingers TouchlessID</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="retry">Try Again</string>
+    <string name="continue_txt">CONTINUE</string>
+
+    <string name="instructions_header">Guidance</string>
+    <string name="fourf_instructions">Press \'Continue\' to start photo capture of your fingers.
+        Place your hand in view of the phone\'s rear camera, roughly in the guide. Stay steady and keep
+        your fingers together.</string>
+    <string name="thumb_instructions">Press \'Continue\' to start photo capture of your thumb.
+        Place your thumb in view of the phone\'s rear camera, roughly in the guide. Stay steady when
+        green.</string>
+    <string name="individual_instructions">Press \'Continue\' to start photo capture of your finger.
+        Place your finger in view of the phone\'s rear camera, roughly in the guide. Stay steady when
+        green.</string>
+
+    <string name="activity_fourf_review_button_verify">Verify</string>
+    <string name="activity_fourf_review_title">Successful Print Scan</string>
+    <string name="activity_fourf_review_subtitle">Please verify by\nscanning again.</string>
+
+    <string name="failed_capture_retry_prompt">Please Try Again</string>
+
+    <string name="activity_fourf_complete">Fingerprints Verified.</string>
+    <string name="activity_fourf_complete_title">Enrollment complete.</string>
+    <string name="activity_fourf_complete_button_continue">Continue</string>
+
+    <string name="left_thumb">Left Thumb</string>
+    <string name="right_thumb">Right Thumb</string>
+
+    <string name="left_index">Left Index</string>
+    <string name="left_middle">Left Middle</string>
+    <string name="left_ring">Left Ring</string>
+    <string name="left_little">Left Little</string>
+
+    <string name="right_index">Right Index</string>
+    <string name="right_middle">Right Middle</string>
+    <string name="right_ring">Right Ring</string>
+    <string name="right_little">Right Little</string>
+
+    <string name="unsupported_template_format">Unsupported template format</string>
+    <string name="eight_f_template_failed">8F template creation failed</string>
+    <string name="merge_f_template_failed">Merged template creation failed</string>
+
+    <string name="place_fingers_in_template">Searching</string>
+    <string name="hold_still">Hold Still</string>
+    <string name="moving_dots">...</string>
+
+    <string name="take_picture">Take Picture</string>
+    <string name="taking_picture">Taking Picture</string>
+    <string name="Move_hand_further_away">Move hand further away</string>
+    <string name="Move_hand_closer">Move hand closer</string>
+    <string name="too_close">TOO\nCLOSE</string>
+    <string name="too_far">TOO\nFAR</string>
+    <string name="Hold_fingers_together">Hold fingers together</string>
+    <string name="Move_hand_down">Move hand down</string>
+    <string name="Move_hand_up">Move hand up</string>
+    <string name="Move_hand_right">Move hand right</string>
+    <string name="Move_hand_left">Move hand left</string>
+    <string name="Place_hand_inside_mask">Place hand inside mask</string>
+    <string name="authenticated">Authenticated</string>
+
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+
+    <string name="you_have_completed_hand_nrecognition_authentication">You have completed hand\nrecognition authentication</string>
+    <string name="you_have_completed_enrollment">Encrypting your data</string>
+    <string name="success">Success!</string>
+    <string name="next">Next</string>
+    <string name="success_nfirst_scan_complete">Scan 1 of 2 complete</string>
+    <string name="success_nsecond_scan_complete">Scan 2 of 2 complete</string>
+    <string name="ok">OK</string>
+    <string name="success_n_scan_complete">Success!\nScan complete.</string>
+    <string name="success_nchange_hands">Success!</string>
+    <string name="fingerprint_captured">Fingerprint captured.</string>
+    <string name="change_fingers">Please change fingers.</string>
+    <string name="please_verify_by_scanning_again">Please verify by scanning again</string>
+    <string name="please_move_hand_upwards_for_next_picture">Please move hand upwards for next picture</string>
+    <string name="please_change_hands">Please change hands</string>
+
+    <string name="sorry">Sorry!</string>
+    <string name="could_not_process">Could not process scan</string>
+    <string name="tips">Tips</string>
+    <string name="failed_to_verify">We failed to verify your scan.</string>
+
+    <string name="failed_heading">Scan failed</string>
+    <string name="failed_subheading">We failed to capture correctly</string>
+    <string name="failed_liveness_subheading">We failed to capture correctly</string>
+    <string name="fourf_failed_advice">Tips: Use a plain background. Keep your fingers together. Clean the camera lens.</string>
+    <string name="singleDigit_failed_advice">Tips: Use a plain background. Adjust how far away
+        you hold your finger. Clean the camera lens.</string>
+    <string name="liveness_failed_advice">Tips: Fill the guide for both
+        pictures. Move your hand parallel to the phone. Do not change the angle of your hand.</string>
+
+    <string name="passive_failed">Passive liveness failed</string>
+
+   <string name="tips_message">Hold your fingers together and straight\n\nKeep your hand as steady as possible\n\nUse a neutral background</string>
+<string name="got_it">Got it</string>
+</resources>

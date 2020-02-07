@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:3:5-56
+		INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+		INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:2:1-16:12
+		INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:7:22-63
+application
+ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:9:5-14:19
+	android:supportsRtl
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:10:9-35
+meta-data#preloaded_fonts
+ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:11:9-13:57
+	android:resource
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:13:13-54
+	android:name
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml:12:13-43
+uses-sdk
+INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+		INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+		ADDED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml
+		INJECTED from D:\VFS\KT\VfsNew\veridium-ui-modules\veridium-fourf-export-ui2\src\main\AndroidManifest.xml

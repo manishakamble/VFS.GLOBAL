@@ -1,0 +1,27 @@
+{
+  "camera": {
+    "id": 0,
+    "width": 1920,
+    "height": 1080
+  },
+  "faceCapture": {
+    "captureTimeout": 60000,
+    "autoshutterTimeout": 10000,
+    "shakeThreshold": 0.25,
+    "playSound": true,
+    "distanceProportionToDetect": 0.12,
+    "distanceProportionThreshold": 0.06,
+    "minRoll": -10,
+    "maxRoll": 10,
+    "showDebug": false,
+    "centerPointToDetectX": 0.5,
+    "centerPointToDetectY": 0.35,
+    "centerPointThreshold": 0.1,
+    "allConditionsTrueTimer": 1000,
+    "frontCaptureMultiplier":1.5,
+    "provider": "com.tascent.mx.android.sdk.internal.LunaMxFaceCaptureProvider"
+  },
+  "fingerprintCapture": {
+    "captureTimeout": 20000
+  }
+}

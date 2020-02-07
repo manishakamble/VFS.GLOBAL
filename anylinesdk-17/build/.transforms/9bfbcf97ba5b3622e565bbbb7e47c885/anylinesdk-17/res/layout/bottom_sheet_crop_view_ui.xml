@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llbb"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/crop_view_layout_margin"
+        >
+    </View>
+
+    <LinearLayout
+        android:id="@+id/llBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <View
+            android:id="@+id/vMarginLeft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20">
+        </View>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ibCancel"
+                android:layout_width="@dimen/bottom_sheet_image_button_size"
+                android:layout_height="@dimen/bottom_sheet_image_button_size"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center_horizontal|center_vertical"
+                android:background="@color/bb_background"
+                android:scaleType="fitXY"
+                android:src="@drawable/doc_scan_ui_cancel"
+                tools:ignore="ContentDescription"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ibOk"
+                android:layout_width="@dimen/bottom_sheet_image_button_size"
+                android:layout_height="@dimen/bottom_sheet_image_button_size"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center_horizontal|center_vertical"
+                android:background="@color/bb_background"
+                android:scaleType="fitXY"
+                android:src="@drawable/doc_scan_ui_ok"
+                tools:ignore="ContentDescription"
+                />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vMarginRight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5">
+        </View>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/crop_view_layout_margin"
+        >
+    </View>
+
+    <View
+        android:id="@+id/vDivider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/open_sans</item>
+        <item>@font/open_sans_semibold</item>
+    </array>
+    <color name="accent">#e91e63</color>
+    <color name="accent_pressed">#C2185B</color>
+    <color name="action_bar_blue">#00ADEF</color>
+    <color name="callToAction">#F78D22</color>
+    <color name="colorAccent">#0B5671</color>
+    <color name="colorPrimary">#38c0cc</color>
+    <color name="colorPrimaryDark">#0f90be</color>
+    <color name="color_darkBlue">#025783</color>
+    <color name="color_darkCyan">#00ADEF</color>
+    <color name="creme">#F3F0E7</color>
+    <color name="dark_blue">#025783</color>
+    <color name="dark_yellow">#CCC2A1</color>
+    <color name="fourf_default_ui_blue">#1D91BC</color>
+    <color name="fourf_default_ui_gray">#96596966</color>
+    <color name="fourf_default_ui_green">#0BA04A</color>
+    <color name="fourf_default_ui_red">#ff4a43</color>
+    <color name="fourf_new_green">#64b0a2</color>
+    <color name="fourf_new_purple">#8d6aab</color>
+    <color name="light_gray">#F4F4F4</color>
+    <color name="mask_color">#ebf0ff</color>
+    <color name="material_blue_500">#5677fc</color>
+    <color name="ripple">#F06292</color>
+    <color name="theme_colorAccent">#FFFFFF</color>
+    <color name="theme_colorButtonNormal">#2196f3</color>
+    <color name="theme_colorControlActivated">#FF6E40</color>
+    <color name="theme_colorControlHighlight">#FF4081</color>
+    <color name="theme_colorControlNormal">#757575</color>
+    <color name="theme_colorEdgeEffect">#FF4081</color>
+    <color name="theme_colorPrimary">#3F51B5</color>
+    <color name="theme_colorPrimaryDark">#303F9F</color>
+    <color name="theme_colorSwitchThumbNormal">#BDBDBD</color>
+    <color name="theme_colorWindowBackground">#666</color>
+    <color name="transparent">#00000000</color>
+    <color name="veridium_bar_color">#333333</color>
+    <color name="veridium_blue">#af1b90be</color>
+    <color name="veridium_light_gray_background_color">#F4F4F4</color>
+    <color name="veridium_text_color">#666666</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="Hold_fingers_together">Hold fingers together</string>
+    <string name="Move_hand_closer">Move hand closer</string>
+    <string name="Move_hand_down">Move hand down</string>
+    <string name="Move_hand_further_away">Move hand further away</string>
+    <string name="Move_hand_left">Move hand left</string>
+    <string name="Move_hand_right">Move hand right</string>
+    <string name="Move_hand_up">Move hand up</string>
+    <string name="Place_hand_inside_mask">Place hand inside mask</string>
+    <string name="activity_fourf_complete">Fingerprints Verified.</string>
+    <string name="activity_fourf_complete_button_continue">Continue</string>
+    <string name="activity_fourf_complete_title">Enrollment complete.</string>
+    <string name="activity_fourf_review_button_verify">Verify</string>
+    <string name="activity_fourf_review_subtitle">Please verify by\nscanning again.</string>
+    <string name="activity_fourf_review_title">Successful Print Scan</string>
+    <string name="authenticated">Authenticated</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_fingers">Please change fingers.</string>
+    <string name="continue_txt">CONTINUE</string>
+    <string name="could_not_process">Could not process scan</string>
+    <string name="eight_f_template_failed">8F template creation failed</string>
+    <string name="failed_capture_retry_prompt">Please Try Again</string>
+    <string name="failed_heading">Scan failed</string>
+    <string name="failed_liveness_subheading">We failed to capture correctly</string>
+    <string name="failed_subheading">We failed to capture correctly</string>
+    <string name="failed_to_verify">We failed to verify your scan.</string>
+    <string name="fingerprint_captured">Fingerprint captured.</string>
+    <string name="fourf_failed_advice">Tips: Use a plain background. Keep your fingers together. Clean the camera lens.</string>
+    <string name="fourf_instructions">Press \'Continue\' to start photo capture of your fingers.
+        Place your hand in view of the phone\'s rear camera, roughly in the guide. Stay steady and keep
+        your fingers together.</string>
+    <string name="got_it">Got it</string>
+    <string name="hold_still">Hold Still</string>
+    <string name="individual_instructions">Press \'Continue\' to start photo capture of your finger.
+        Place your finger in view of the phone\'s rear camera, roughly in the guide. Stay steady when
+        green.</string>
+    <string name="instructions_header">Guidance</string>
+    <string name="left">Left</string>
+    <string name="left_index">Left Index</string>
+    <string name="left_little">Left Little</string>
+    <string name="left_middle">Left Middle</string>
+    <string name="left_ring">Left Ring</string>
+    <string name="left_thumb">Left Thumb</string>
+    <string name="liveness_failed_advice">Tips: Fill the guide for both
+        pictures. Move your hand parallel to the phone. Do not change the angle of your hand.</string>
+    <string name="merge_f_template_failed">Merged template creation failed</string>
+    <string name="moving_dots">...</string>
+    <string name="next">Next</string>
+    <string name="ok">OK</string>
+    <string name="passive_failed">Passive liveness failed</string>
+    <string name="place_fingers_in_template">Searching</string>
+    <string name="please_change_hands">Please change hands</string>
+    <string name="please_move_hand_upwards_for_next_picture">Please move hand upwards for next picture</string>
+    <string name="please_verify_by_scanning_again">Please verify by scanning again</string>
+    <string name="retry">Try Again</string>
+    <string name="right">Right</string>
+    <string name="right_index">Right Index</string>
+    <string name="right_little">Right Little</string>
+    <string name="right_middle">Right Middle</string>
+    <string name="right_ring">Right Ring</string>
+    <string name="right_thumb">Right Thumb</string>
+    <string name="singleDigit_failed_advice">Tips: Use a plain background. Adjust how far away
+        you hold your finger. Clean the camera lens.</string>
+    <string name="sorry">Sorry!</string>
+    <string name="success">Success!</string>
+    <string name="success_n_scan_complete">Success!\nScan complete.</string>
+    <string name="success_nchange_hands">Success!</string>
+    <string name="success_nfirst_scan_complete">Scan 1 of 2 complete</string>
+    <string name="success_nsecond_scan_complete">Scan 2 of 2 complete</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="taking_picture">Taking Picture</string>
+    <string name="thumb_instructions">Press \'Continue\' to start photo capture of your thumb.
+        Place your thumb in view of the phone\'s rear camera, roughly in the guide. Stay steady when
+        green.</string>
+    <string name="tips">Tips</string>
+    <string name="tips_message">Hold your fingers together and straight\n\nKeep your hand as steady as possible\n\nUse a neutral background</string>
+    <string name="too_close">TOO\nCLOSE</string>
+    <string name="too_far">TOO\nFAR</string>
+    <string name="unsupported_template_format">Unsupported template format</string>
+    <string name="veridium_fourf_biometrics_activity_4_finger_touchlessid">4 Fingers TouchlessID</string>
+    <string name="you_have_completed_enrollment">Encrypting your data</string>
+    <string name="you_have_completed_hand_nrecognition_authentication">You have completed hand\nrecognition authentication</string>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="DialogAnimation_2">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom</item>
+    </style>
+    <style name="DialogAnimation_3">
+        <item name="android:windowEnterAnimation">@anim/jump_from_down</item>
+        <item name="android:windowExitAnimation">@anim/jump_to_down</item>
+    </style>
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+</resources>

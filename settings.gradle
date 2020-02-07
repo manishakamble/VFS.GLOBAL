@@ -1,0 +1,6 @@
+include ':app', ':anylinesdk-17',':veridium-finger-selector',':veridium-fourf-export-ui', ':veridium-fourf-export-ui2',':mx-android-sdk',':pluginsdk'
+rootProject.name='VfsNew'
+
+project(':veridium-finger-selector').projectDir = new File('veridium-ui-modules/veridium-finger-selector')
+project(':veridium-fourf-export-ui').projectDir = new File('veridium-ui-modules/veridium-fourf-export-ui')
+project(':veridium-fourf-export-ui2').projectDir = new File('veridium-ui-modules/veridium-fourf-export-ui2')

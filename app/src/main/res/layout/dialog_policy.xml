@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded_corner_dialog"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/privacy_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/heading"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="@string/privacy_policy_terms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/long_info"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="@dimen/text_margin"
+            android:scrollbars="vertical"
+            android:fadeScrollbars="false"
+            android:layout_above="@+id/button_continue_info"
+            android:layout_below="@+id/heading" />
+
+        <Button
+            android:id="@+id/button_continue_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/fourf_default_ui_blue"
+            android:text="@string/activity_fourf_complete_button_continue"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

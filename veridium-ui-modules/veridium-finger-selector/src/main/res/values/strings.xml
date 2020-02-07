@@ -1,0 +1,5 @@
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="tap_on_missing_fingers">Tap on the fingers on the image above for any missing fingers.\nOnce all missing fingers have been selected, press next.</string>
+    <string name="next">NEXT</string>
+    <string name="cancel">CANCEL</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="instructional_text">Place your hand in view of the phone\'s rear camera, roughly in the guide. Stay steady and keep
+        your fingers together.</string>
+    <string name="continue_txt">CONTINUE</string>
+    <string name="enroll">Enroll</string>
+    <string name="export">Export</string>
+    <string name="instructions_header">Guidance</string>
+
+</resources>

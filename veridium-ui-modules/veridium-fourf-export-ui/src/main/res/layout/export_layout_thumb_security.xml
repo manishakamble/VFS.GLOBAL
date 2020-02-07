@@ -1,0 +1,173 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <com.veridiumid.sdk.support.ui.AspectRatioSafeFrameLayout
+            android:id="@+id/camera_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/white" />
+
+
+        <ImageView
+            android:id="@+id/img_finger_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RelativeLayout
+            android:id="@+id/rl_switch_hand"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp">
+
+            <ImageView
+                android:src="@drawable/circle_for_buttons"
+                android:id="@+id/switch_hand_circle"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/switch_hand_icon"
+                android:id="@+id/switch_hand_icon"
+                android:layout_alignTop="@+id/switch_hand_circle"
+                android:layout_alignLeft="@+id/switch_hand_circle"
+                android:layout_alignStart="@+id/switch_hand_circle" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_cancel"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp">
+
+            <ImageView
+                android:src="@drawable/circle_for_buttons"
+                android:id="@+id/cancel_circle"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cancel_arrow"
+                android:id="@+id/cancel_icon"
+                android:layout_alignTop="@+id/cancel_circle"
+                android:layout_alignLeft="@+id/cancel_circle"
+                android:layout_alignStart="@+id/cancel_circle" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/rl_top_image"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_placeYourFingers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_marginTop="15sp"
+            android:text="@string/place_fingers_in_template"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/tv_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            android:text="@string/moving_dots"
+            android:layout_marginTop="17sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_handSide"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/lefthand_thumb_instructional"
+        android:layout_marginTop="31dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/left_thumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_handSide"
+        android:layout_centerInParent="true"
+        android:id="@+id/tv_handside"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iv_consumer_logo"
+        android:layout_below="@+id/rl_top"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/iv_handSide"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_handSide"
+        android:layout_marginBottom="20dp" />
+
+
+</RelativeLayout>

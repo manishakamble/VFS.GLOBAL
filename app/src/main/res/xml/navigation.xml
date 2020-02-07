@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2014 - 2019 Michael Rapp
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in
+compliance with the License. You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is
+distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+implied. See the License for the specific language governing permissions and limitations under the
+License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="@string/setting_preference"
+    app:iconSpaceReserved="false">
+
+    <PreferenceCategory android:title="Features">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="passport_switch"
+            android:title="Passport Details" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="face_switch"
+            android:title="Face" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="document_switch"
+            android:title="Document Upload" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="signature_switch"
+            android:title="Signature" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Output Format">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/nist_menu_switch"
+            android:title="Nist" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/xml_menu_switch"
+            android:title="XML" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/nist_key_cat"
+        android:title="Nist contain data">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/nist_passport_switch"
+            android:title="Passport Details" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/nist_face_switch"
+            android:title="Face" />
+        <!--<CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="false"
+            android:key="nist_fingerprint_switch"
+            android:title="FingerPrint" />-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/nist_signature_switch"
+            android:title="Signature" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/xml_key_cat"
+        android:title="XML contain data">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/xml_passport_switch"
+            android:title="Passport Details" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/xml_face_switch"
+            android:title="Face" />
+        <!-- <CheckBoxPreference
+             android:defaultValue="true"
+             android:key="xml_fingerprint_switch"
+             android:title="FingerPrint" />-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/xml_signature_switch"
+            android:title="Signature" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

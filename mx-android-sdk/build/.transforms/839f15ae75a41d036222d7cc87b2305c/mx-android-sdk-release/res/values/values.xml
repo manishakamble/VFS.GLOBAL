@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <integer-array name="MxFingerprintCapture.fingerPositionSequence">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="MxFingerprintCapture.fingerScanTypeSequence">
+        <item>SLAP</item>
+        <item>SLAP</item>
+        <item>SLAP</item>
+        <item>SLAP</item>
+        <item>SLAP</item>
+        <item>SLAP</item>
+        <item>SLAP</item>
+        <item>SLAP</item>
+        <item>SLAP</item>
+        <item>SLAP</item>
+    </string-array>
+    <color name="backgroundBlackWithAlpha">#06000000</color>
+    <color name="bgColor">#d5d6d6</color>
+    <color name="black">#000000</color>
+    <color name="captureViewFaceAnimationBackgroundColor">#FFFFFF</color>
+    <color name="captureViewIrisAnimationBackgroundColor">#B08A53</color>
+    <color name="clearColor">#00000000</color>
+    <color name="colorAccent">@color/goldColor</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="deleteActionColor">#FFE01717</color>
+    <color name="design_snackbar_background_color" ns1:override="true">@color/black</color>
+    <color name="detailActivityBackgroundFingerprint">#FFFFFFFF</color>
+    <color name="dialogBackgroundColor">#FFFFFFFF</color>
+    <color name="dialogBackgroundColorDark">#FF424242</color>
+    <color name="dialogContentColor">#FF7A7A7A</color>
+    <color name="dialogContentColorDark">#FF9E9E9E</color>
+    <color name="dialogNegativeActionColor">#FF4A4A4A</color>
+    <color name="dialogNegativeActionColorDark">#FF9E9E9E</color>
+    <color name="dialogPositiveActionColor">#FFB08A53</color>
+    <color name="dialogPositiveActionColorDark">#FFDEBD8D</color>
+    <color name="dialogTitleColor">#DE000000</color>
+    <color name="dialogTitleColorDark">#DEFFFFFF</color>
+    <color name="editTextBackgroundColor">#FFFFFFFF</color>
+    <color name="editTextColor">#FF9B9B9B</color>
+    <color name="editTextHintColor">#FF9B9B9B</color>
+    <color name="fingerprintPanelIconBackgroundColorWithoutFinger">#FF4A4A4A</color>
+    <color name="fingerprintPanelIconBackgroundWithFinger">#FFFFFFFF</color>
+    <color name="goldColor">#b08a54</color>
+    <color name="imgBgColor">#ffffff</color>
+    <color name="loadingColor">#c82b2a2a</color>
+    <color name="markedFingerBackground">#FF979797</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="qualityCheckBackground">#595a59</color>
+    <color name="qualityCheckBackgroundDark">#FF424242</color>
+    <color name="qualityCheckButton">#4a4a4a</color>
+    <color name="qualityCheckButtonDark">#FF4A4A4A</color>
+    <color name="semiClearcolor">#66000000</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="txtColor">#000000</color>
+    <color name="windowBackground">#FF424242</color>
+    <dimen name="finger_panel_icon_padding_without_capture">10.5dp</dimen>
+    <dimen name="finger_panel_quality_bar_height">9dp</dimen>
+    <dimen name="image_padding_selected">0dp</dimen>
+    <dimen name="image_padding_unselected">5.25dp</dimen>
+    <string name="activity_epassport_capture_cancel">Cancel</string>
+    <string name="activity_epassport_capture_info">Place Tascent device on top of e-passport and wait till it reads all required data.</string>
+    <string name="activity_epassport_capture_message_authenticated">Authenticated</string>
+    <string name="activity_epassport_capture_message_detected">Passport NFC detected</string>
+    <string name="activity_epassport_capture_message_discovering">Discovering features</string>
+    <string name="activity_epassport_capture_message_failed">Failed to read passport data</string>
+    <string name="activity_epassport_capture_message_initialized">Initialized</string>
+    <string name="activity_epassport_capture_message_not_detected">Passport NFC not detected</string>
+    <string name="activity_epassport_capture_message_read">Finished reading data</string>
+    <string name="activity_epassport_capture_message_reading">Reading data...</string>
+    <string name="activity_epassport_capture_subtitle">Read</string>
+    <string name="activity_epassport_capture_title">NFC</string>
+    <string name="activity_iris_capture_focus_eye">Focus eye:</string>
+    <string name="activity_iris_capture_focus_title">FOCUS</string>
+    <string name="activity_usb_device_attached_failed">Failed to get permissions</string>
+    <string name="activity_usb_device_attached_subtitle_label">Please wait</string>
+    <string name="activity_usb_device_attached_title_label">Attaching device</string>
+    <string name="app_name">mx-android-sdk</string>
+    <string name="appbar_comment_add">Add</string>
+    <string name="appbar_comment_comment">Comment</string>
+    <string name="build_info">Branch: %1$s\nCommit hash: %2$s\nCommit date: %3$s</string>
+    <string name="calibration_capture_name">Calibration</string>
+    <string name="device_disconnected_error">Device disconnected</string>
+    <string name="device_name_ibm2">IBM2</string>
+    <string name="device_name_m1">M1</string>
+    <string name="device_name_m4">M4</string>
+    <string name="device_name_mx">MX</string>
+    <string name="device_name_no_device">No device</string>
+    <string name="device_name_unknown">Unknown</string>
+    <string name="face_capture_capture_name">Face</string>
+    <string name="face_capture_error_all_in_use">maximum number of cameras in use</string>
+    <string name="face_capture_error_camera">error at camera device</string>
+    <string name="face_capture_error_disabled">camera is disabled</string>
+    <string name="face_capture_error_in_use">camera in use</string>
+    <string name="face_capture_error_service">error at camera service</string>
+    <string name="face_capture_error_unknown">unknown error</string>
+    <string name="face_capture_hold_still">Hold still</string>
+    <string name="face_capture_manual_capture">Tap to manually capture</string>
+    <string name="face_capture_neurotec_error">Unknown neurotec error</string>
+    <string name="face_capture_recapture_dialog_message">Detected quality %1$s%%</string>
+    <string name="face_capture_recapture_dialog_negative">Accept</string>
+    <string name="face_capture_recapture_dialog_positive">Recapture</string>
+    <string name="face_capture_recapture_dialog_title">Quality Check Failed</string>
+    <string name="face_capture_review_bypassed">Quality check bypassed by operator.</string>
+    <string name="fingerCode">fingerCode</string>
+    <string name="fingerPanelCodeId">fingerPanelCodeId</string>
+    <string name="fingerPanelResultId">fingerPanelResultId</string>
+    <string name="fingerResultId">fingerPanelResultId</string>
+    <string name="finger_position_1">1</string>
+    <string name="finger_position_10">10</string>
+    <string name="finger_position_2">2</string>
+    <string name="finger_position_3">3</string>
+    <string name="finger_position_4">4</string>
+    <string name="finger_position_5">5</string>
+    <string name="finger_position_6">6</string>
+    <string name="finger_position_7">7</string>
+    <string name="finger_position_8">8</string>
+    <string name="finger_position_9">9</string>
+    <string name="fingerprint_amputated">Amputated</string>
+    <string name="fingerprint_bandaged">Bandaged</string>
+    <string name="fingerprint_capture_message">Hold selected finger(s) on sensor located on the back of the device.</string>
+    <string name="fingerprint_capture_success">Fingerprint capture success!</string>
+    <string name="fingerprint_capture_title">Fingerprints</string>
+    <string name="fingerprint_delete_all">All fingerprints</string>
+    <string name="fingerprint_delete_selected">Selected fingerprint</string>
+    <string name="fingerprint_no_1">Fingerprint no. 1</string>
+    <string name="fingerprint_no_10">Fingerprint no. 10</string>
+    <string name="fingerprint_no_2">Fingerprint no. 2</string>
+    <string name="fingerprint_no_2_3">Fingerprint no. 2–3</string>
+    <string name="fingerprint_no_3">Fingerprint no. 3</string>
+    <string name="fingerprint_no_4">Fingerprint no. 4</string>
+    <string name="fingerprint_no_4_5">Fingerprint no. 4–5</string>
+    <string name="fingerprint_no_5">Fingerprint no. 5</string>
+    <string name="fingerprint_no_6">Fingerprint no. 6</string>
+    <string name="fingerprint_no_7">Fingerprint no. 7</string>
+    <string name="fingerprint_no_7_8">Fingerprint no. 7–8</string>
+    <string name="fingerprint_no_8">Fingerprint no. 8</string>
+    <string name="fingerprint_no_9">Fingerprint no. 9</string>
+    <string name="fingerprint_no_9_10">Fingerprint no. 9–10</string>
+    <string name="fingerprint_ok">OK</string>
+    <string name="firmware_update_done_button">Done</string>
+    <string name="firmware_update_try_again">Try again</string>
+    <string name="firmware_update_update_button">Update</string>
+    <string name="firmware_update_updating">Updating MX</string>
+    <string name="flip_down">Flip down</string>
+    <string name="flip_up">Flip up</string>
+    <string name="iris_calibration_cancel">Cancel</string>
+    <string name="iris_calibration_done">Done</string>
+    <string name="iris_calibration_info">Click Start when your subject is facing the accessory device at a distance of 225mm or 9 inches.</string>
+    <string name="iris_calibration_info_reset">Reset Calibration Data</string>
+    <string name="iris_calibration_start">Start calibration</string>
+    <string name="iris_calibration_title">Calibration</string>
+    <string name="iris_capture_calibration_instruction">Drag the black &amp; white image so that the glint in its pupil lies in the middle of the pupil below.</string>
+    <string name="iris_capture_error_focus_far">FOCUS_FAR</string>
+    <string name="iris_capture_error_focus_invalid">FOCUS_INVALID</string>
+    <string name="iris_capture_error_focus_near">FOCUS_NEAR</string>
+    <string name="iris_capture_name">Iris</string>
+    <string name="iris_capture_option_both">Default</string>
+    <string name="iris_capture_option_left">Left eye</string>
+    <string name="iris_capture_option_right">Right eye</string>
+    <string name="iris_capture_option_title">Capture options</string>
+    <string name="iris_capture_processing">Capture completed</string>
+    <string name="iris_capture_quality_check">Quality Check:</string>
+    <string name="iris_capturing_now">Capturing now</string>
+    <string name="iris_focus_error_message">Iris capture failure. Please recalibrate.</string>
+    <string name="iris_focus_eye">Focus eye: %1$s</string>
+    <string name="iris_focus_eye_left">Left eye</string>
+    <string name="iris_focus_eye_right">Right eye</string>
+    <string name="iris_hold_still">Hold still</string>
+    <string name="iris_title">Iris</string>
+    <string name="left_hand">Left hand</string>
+    <string name="link_unlink">Link/Unlink</string>
+    <string name="mark_unprintable">Mark unprintable</string>
+    <string name="quality_check_menu_details">Details</string>
+    <string name="quality_check_menu_detailsEmpty">Do not have details to show.</string>
+    <string name="right_hand">Right hand</string>
+    <string name="toolbar_capture_done">Done</string>
+    <string name="toolbar_detail_image">Image</string>
+    <string name="updateFirmware_beforeUpdateMessage">Select the "Update" button to update MX. Updating may take several minutes, during which time the device must not be powered off or disconnected.</string>
+    <string name="updateFirmware_cancellingHeader">Cancelling…</string>
+    <string name="updateFirmware_cancellingMessage">Cancelling the firmware upload</string>
+    <string name="updateFirmware_failedHeader">Update Failed.</string>
+    <string name="updateFirmware_failedMessage">(0).</string>
+    <string name="updateFirmware_installingFirmwareHeader">Installing Firmware…</string>
+    <string name="updateFirmware_rebooting_mx">Restarting device…</string>
+    <string name="updateFirmware_successHeader">Update Successfully.</string>
+    <string name="updateFirmware_successMessage">MX is updated.</string>
+    <string name="updateFirmware_uploadingFirmwareHeader">Uploading Firmware…</string>
+    <string name="updateFirmware_uploadingInstallingFirmwareMessage">Do not disconnect or power off MX</string>
+    <string name="version_number_storage">version_number_storage</string>
+    <style name="Tascent" parent="Theme.AppCompat">
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+
+        <item name="alertDialogTheme">@style/Tascent.Dialog</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="fontFamily">@font/graphik</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Tascent.Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/dialogBackgroundColorDark</item>
+        <item name="colorAccent">@color/dialogPositiveActionColorDark</item>
+        <item name="colorControlNormal">@color/dialogTitleColorDark</item>
+        <item name="colorControlActivated">@color/dialogTitleColorDark</item>
+        <item name="android:editTextColor">@color/dialogContentColorDark</item>
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="fontFamily">@font/graphik</item>
+        <item name="android:textColor">@color/dialogContentColorDark</item>
+        <item name="android:textColorPrimary">@color/dialogPositiveActionColorDark</item>
+        <item name="android:textColorSecondary">@color/dialogNegativeActionColorDark</item>
+        <item name="android:textColorTertiary">@color/dialogNegativeActionColorDark</item>
+        <item name="android:titleTextColor">@color/dialogTitleColorDark</item>
+    </style>
+    <style name="Tascent.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:editTextBackground">@color/colorPrimaryDark</item>
+        <item name="android:editTextColor">@color/editTextColor</item>
+        <item name="android:textColorHint">@color/editTextHintColor</item>
+    </style>
+    <style name="Tascent.HandStyle">
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="fontFamily">@font/graphik</item>
+    </style>
+    <style name="Tascent.LinearProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:progressBackgroundTint">@color/windowBackground</item>
+    </style>
+    <style name="Tascent.Toolbar.Button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAppearance">@style/Tascent.Toolbar.Button.Text</item>
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="fontFamily">@font/graphik</item>
+    </style>
+    <style name="Tascent.Toolbar.Button.Text" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="fontFamily">@font/graphik</item>
+    </style>
+    <style name="Tascent.Toolbar.ReviewTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Tascent.Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <declare-styleable name="AndroidCameraView">
+        <attr format="enum" name="scaleMode">
+            <enum name="center" value="0"/>
+            <enum name="fit" value="1"/>
+            <enum name="stretch" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ComplexProgressView">
+        <attr format="reference|color" name="progressColor"/>
+        <attr format="reference|color" name="progressFailureColor"/>
+        <attr format="reference|color" name="progressSuccessColor"/>
+    </declare-styleable>
+</resources>

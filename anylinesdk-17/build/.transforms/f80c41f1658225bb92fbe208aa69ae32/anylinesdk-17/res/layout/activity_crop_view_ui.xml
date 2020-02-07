@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llCropView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/crop_view_layout_margin"
+        android:background="#efefef"
+        tools:context="io.anyline.view.CropViewUI">
+
+
+        <ImageView
+            android:id="@+id/crop_activity_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            tools:src="@drawable/doc_scan_ui_flash_auto"
+            />
+
+        <include
+            layout="@layout/tetragon_view_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <io.anyline.view.MagnifyImageView
+            android:id="@+id/crop_activity_magnify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/magnify"
+            android:gravity="top|start"
+            android:visibility="visible"
+            />
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/bottom_sheet_crop_view_ui"
+        />
+
+</LinearLayout>

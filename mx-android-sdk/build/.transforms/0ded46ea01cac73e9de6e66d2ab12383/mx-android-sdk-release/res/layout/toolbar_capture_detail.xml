@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_capture_detail"
+    android:layout_width="match_parent"
+    android:layout_height="87.5dp"
+    android:background="?attr/colorPrimaryDark"
+    android:elevation="4dp"
+    android:minHeight="87.5dp"
+    android:theme="?attr/actionBarTheme"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/toolbar_capture_review_title_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/toolbar_capture_review_title"
+            style="@style/Tascent.Toolbar.ReviewTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/graphik_medium"
+            android:text="@string/face_capture_capture_name" />
+
+        <TextView
+            android:id="@+id/toolbar_capture_review_subtitle"
+            style="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toolbar_detail_image" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

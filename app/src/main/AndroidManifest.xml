@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vfs.fingerprint">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".base.SettingsDynamic"></activity>
+        <activity
+            android:name=".base.settingActivity"
+            android:icon="@drawable/ic_arrow_back_24dp"
+            android:label="@string/title_activity_setting" />
+        <activity
+            android:name=".base.AdminPortalActivity"
+            android:label="@string/title_activity_admin_portal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".base.AdminScreenActivity" />
+        <activity android:name=".base.SuccessActivity" />
+        <activity android:name=".base.PreviewActivity" />
+        <activity android:name=".base.AdminActivity" />
+        <activity android:name=".base.EnrollmentActivity" />
+        <activity
+            android:name=".anylinemrz.mrz.ScanMrzActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".base.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".base.HomeActivity"
+            android:screenOrientation="portrait" />
+        <!--
+<activity
+            android:name=".base.LoginActivity"
+            android:screenOrientation="portrait" />
+        -->
+        <activity
+            android:name=".anylinemrz.scanviewresult.ScanViewResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".veridium.veridium.MainFragmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".face.FaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signature.SignaturePadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".veridium.veridium.CustomFourFBiometricsActivity"
+            android:label="4 Fingers"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="com.veridiumid.sdk.component.config"
+                android:value="uid=4E,optional=false,validator=com.veridiumid.sdk.fourfexport.FourFExportValidator" />
+        </activity>
+        <activity
+            android:name=".scanbotdocumentscan.PagePreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".anylinedocumentscanner.DocumentScanViewUIActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".anylinedocumentscanner.CropViewUIActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".anylinedocumentscanner.DocScanUIMainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.veridiumid.sdk.LICENSE"
+            android:value="qNHVuFJo1UBT9NIZSiE3yKViCemn9TFvM8R7FFFWnacdN4iqAstMyk0c/eGSbsOpDCMEleNoND78N2Zdcz27CHsiZGV2aWNlRmluZ2VycHJpbnQiOiJETklDSWpuNzh3WDZTaTdJdmdEOElsaWN4bzVsb0wrRCtibjhoZWc4TUFrPSIsImxpY2Vuc2UiOiJhMGd0ZTBJN3VJMlJaaGhKTFJoeWRrMnQza21tVnVDK1BJYmk2NzRPUjkxb21wNFEzOFA1OXZUOTAxd2ZNQTM4dkYxZXUwUVFVZ3VuSWIrUmJoeWFCbnNpZEhsd1pTSTZJbE5FU3lJc0ltNWhiV1VpT2lKVFJFc2lMQ0pzWVhOMFRXOWthV1pwWldRaU9qRTFOemcyTlRBM01ESXNJbU52YlhCaGJubE9ZVzFsSWpvaVZrWlRJRWRzYjJKaGJDSXNJbU52Ym5SaFkzUkpibVp2SWpvaUlpd2lZMjl1ZEdGamRFVnRZV2xzSWpvaWJtbDBhVzV6YUVCMlpuTm5iRzlpWVd3dVkyOXRJaXdpYzNWaVRHbGpaVzV6YVc1blVIVmliR2xqUzJWNUlqb2lObVp2ZVVoMGVtRk1SRGRGZURaMlYwSXhTa1Z2Y0ZSTWNFRTRVM1Z3TDFnNE9WWmFPVUZ5VVZoT1dUMGlMQ0p6ZEdGeWRFUmhkR1VpT2pFMU56RTVOakUyTURBc0ltVjRjR2x5WVhScGIyNUVZWFJsSWpveE5UZ3dOREk0T0RBd0xDSm5jbUZqWlVWdVpFUmhkR1VpT2pFMU9ERXlPVEk0TURBc0luVnphVzVuVTBGTlRGUnZhMlZ1SWpwbVlXeHpaU3dpZFhOcGJtZEdjbVZsVWtGRVNWVlRJanBtWVd4elpTd2lkWE5wYm1kQlkzUnBkbVZFYVhKbFkzUnZjbmtpT21aaGJITmxMQ0ppYVc5c2FXSkdZV05sUlhod2IzSjBSVzVoWW14bFpDSTZabUZzYzJVc0luSjFiblJwYldWRmJuWnBjbTl1YldWdWRDSTZleUp6WlhKMlpYSWlPbVpoYkhObExDSmtaWFpwWTJWVWFXVmtJanBtWVd4elpYMHNJbVZ1Wm05eVkyVWlPbnNpY0dGamEyRm5aVTVoYldWeklqcGJJbU52YlM1MlpYSnBaR2wxYldsa0xuTmhiWEJzWlM1bGVIQnZjblJsYm5KdmJHd2lMQ0pqYjIwdWRtWnpMbVpwYm1kbGNuQnlhVzUwSWwwc0luTmxjblpsY2tObGNuUklZWE5vWlhNaU9sdGRmWDA9In0=" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

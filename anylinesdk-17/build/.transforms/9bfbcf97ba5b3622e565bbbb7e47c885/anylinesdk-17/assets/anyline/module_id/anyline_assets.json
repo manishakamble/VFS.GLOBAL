@@ -1,0 +1,19 @@
+{
+    "comment": "Auto generated file. Manual changes will be overwritten.",
+    "immediateAssets": {
+        "anyline/module_id/anyline_driving_license.ale": "bbc5cfc63df8989f42e7357660b33ccb",
+        "anyline/module_id/anyline_driving_license_belgium.ale": "71af3fb44fde1edcb40cc38826450638",
+        "anyline/module_id/anyline_driving_license_netherlands.ale": "6d46462290345edf07cd556a649576cd",
+        "anyline/module_id/anyline_german_id_front.ale": "563da94152f5035cc2ec06a5b55ea809",
+        "anyline/module_id/card_detection.ale": "2565e1317094a1e3dfe5c07f03b9aced",
+        "anyline/module_id/mrz_scanning.ale": "472566f13b5141b9f1eba0e7aa4cf3a3",
+        "anyline/module_id/trained_models/DL_AT.any": "809d973c22c304ca71a85a4572ad01bf",
+        "anyline/module_id/trained_models/IDDe.any": "113ba9958260ea423e3ae60b49a3f689",
+        "anyline/module_id/trained_models/IDDeSticker.any": "f6723d69553356491131a5b5394e727a",
+        "anyline/module_id/trained_models/OCRb.any": "b763251c4d852e46ddaeee6bc2cf42fa",
+        "anyline/module_id/trained_models/USNr.any": "9b4ad56ea9eeb31efcbf82c5f3e0b69e"
+    },
+    "lazyAssets": {
+        
+    }
+}

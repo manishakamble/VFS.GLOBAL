@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+
+repositories {
+    flatDir { dirs '../../veridium-sdk' }
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    "${rootProject.projectDir}/proguard-rules.pro",
+                    'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation rootProject.ext.supportV7
+
+    implementation project(':veridium-fourf-export-ui')
+
+    implementation(name: 'veridium-sdk-release', ext: 'aar')
+    implementation(name: 'veridium-core-release', ext: 'aar')
+    implementation(name: 'veridium-camera-common-release', ext: 'aar')
+    implementation(name: 'veridium-camera1-release', ext: 'aar')
+    implementation(name: 'veridium-support-release', ext: 'aar')
+    implementation(name: 'veridium-secure-data-release', ext: 'aar')
+    implementation(name: 'veridium-fourf-native-release', ext: 'aar')
+    implementation(name: 'veridium-fourf-export-release', ext: 'aar')
+    implementation(name: 'veridium-analytics-release', ext: 'aar')
+}

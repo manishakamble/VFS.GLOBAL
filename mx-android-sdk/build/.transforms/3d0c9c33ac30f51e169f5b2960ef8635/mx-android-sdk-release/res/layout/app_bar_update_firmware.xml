@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="87.5dp"
+    android:background="@color/colorPrimary">
+
+    <!-- There is a padding to increase the textview "click area" -->
+    <TextView
+        android:fontFamily="@font/graphik_regular"
+        android:clickable="true"
+        android:id="@+id/app_bar_update_firmware_cancel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20.5dp"
+        android:layout_marginLeft="10.5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@android:string/cancel"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="@font/graphik_regular"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/firmware_update_updating"
+        android:layout_marginBottom="29.5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- There is a padding to increase the textview "click area" -->
+    <TextView
+        android:fontFamily="@font/graphik_regular"
+        android:clickable="true"
+        android:id="@+id/app_bar_update_firmware_update_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20.5dp"
+        android:layout_marginRight="18.5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/firmware_update_update_button"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp" />
+
+</RelativeLayout>

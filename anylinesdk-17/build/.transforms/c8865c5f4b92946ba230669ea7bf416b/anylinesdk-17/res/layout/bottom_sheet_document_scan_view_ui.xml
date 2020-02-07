@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llBottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="@dimen/bottom_sheet_peek_height"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+    <LinearLayout
+        android:id="@+id/llArrowPanel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_sheet_arrow_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivArrowPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="@dimen/bottom_sheet_arrow_padding_top"
+            android:scaleType="fitCenter"
+            android:src="@drawable/doc_scan_ui_arrow_up"
+            tools:ignore="ContentDescription"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_sheet_height"
+        android:paddingTop="@dimen/bottom_sheet_padding"
+        android:paddingBottom="@dimen/bottom_sheet_padding"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rlIcon0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/bottom_sheet_weight0"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ib0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/bb_background"
+                android:padding="@dimen/bottom_sheet_imageview_padding"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription"
+                />
+
+            <TextView
+                android:id="@+id/tv0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingEnd="@dimen/bottom_sheet_scancount_padding"
+                android:paddingRight="@dimen/bottom_sheet_scancount_padding"
+                android:textSize="@dimen/bottom_sheet_text_size_count"
+                android:visibility="invisible"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlIcon1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/bottom_sheet_weight0"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ib1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/bottom_sheet_imageview_padding"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription"
+                />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingEnd="@dimen/bottom_sheet_scancount_padding"
+                android:paddingRight="@dimen/bottom_sheet_scancount_padding"
+                android:textSize="@dimen/bottom_sheet_text_size_count"
+                android:visibility="invisible"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlIcon2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/bottom_sheet_weight0"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ib2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/bottom_sheet_imageview_padding"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription"
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingEnd="@dimen/bottom_sheet_scancount_padding"
+                android:paddingRight="@dimen/bottom_sheet_scancount_padding"
+                android:textSize="@dimen/bottom_sheet_text_size_count"
+                android:visibility="invisible"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlIcon3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/bottom_sheet_weight0"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ib3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/bottom_sheet_imageview_padding"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription"
+                />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingEnd="@dimen/bottom_sheet_scancount_padding"
+                android:paddingRight="@dimen/bottom_sheet_scancount_padding"
+                android:textSize="@dimen/bottom_sheet_text_size_count"
+                android:visibility="invisible"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlIcon4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/bottom_sheet_weight0">
+
+            <ImageButton
+                android:id="@+id/ib4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/bottom_sheet_imageview_padding"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingEnd="@dimen/bottom_sheet_scancount_padding"
+                android:paddingRight="@dimen/bottom_sheet_scancount_padding"
+                android:textSize="@dimen/bottom_sheet_text_size_count"
+                android:visibility="invisible"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llBottomBarExtension"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/bottom_sheet_margin_expandable_part"
+        android:paddingBottom="@dimen/bottom_sheet_margin_expandable_part"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:id="@+id/llE0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/vDiv0"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_sheet_height_divider"
+                android:layout_margin="@dimen/bottom_sheet_margin_divider_expandable_part"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ibE0"
+                    android:layout_width="@dimen/bottom_sheet_image_button_size"
+                    android:layout_height="@dimen/bottom_sheet_image_button_size"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginStart="@dimen/bottom_sheet_margin_start_expandable_part"
+                    android:layout_marginLeft="@dimen/bottom_sheet_margin_start_expandable_part"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:background="@color/bb_background"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription"
+                    android:clickable="false"
+                    android:focusable="false"
+                    />
+
+                <TextView
+                    android:id="@+id/tvE0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:clickable="false"
+                    android:ellipsize="end"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="2"
+                    android:paddingStart="@dimen/bottom_sheet_padding_text_expandable_part"
+                    android:paddingEnd="@dimen/bottom_sheet_padding_text_expandable_part"
+                    >
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/vDiv1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_sheet_height_divider"
+                android:layout_margin="@dimen/bottom_sheet_margin_divider_expandable_part"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ibE1"
+                    android:layout_width="@dimen/bottom_sheet_image_button_size"
+                    android:layout_height="@dimen/bottom_sheet_image_button_size"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginStart="@dimen/bottom_sheet_margin_start_expandable_part"
+                    android:layout_marginLeft="@dimen/bottom_sheet_margin_start_expandable_part"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:background="@color/bb_background"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription"
+                    android:clickable="false"
+                    android:focusable="false"
+                    />
+
+                <TextView
+                    android:id="@+id/tvE1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:clickable="false"
+                    android:ellipsize="end"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="2"
+                    android:paddingStart="@dimen/bottom_sheet_padding_text_expandable_part"
+                    android:paddingEnd="@dimen/bottom_sheet_padding_text_expandable_part"
+                    >
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llE2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/vDiv2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_sheet_height_divider"
+                android:layout_margin="@dimen/bottom_sheet_margin_divider_expandable_part"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ibE2"
+                    android:layout_width="@dimen/bottom_sheet_image_button_size"
+                    android:layout_height="@dimen/bottom_sheet_image_button_size"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginStart="@dimen/bottom_sheet_margin_start_expandable_part"
+                    android:layout_marginLeft="@dimen/bottom_sheet_margin_start_expandable_part"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:background="@color/bb_background"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription"
+                    android:clickable="false"
+                    android:focusable="false"
+                    />
+
+                <TextView
+                    android:id="@+id/tvE2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:clickable="false"
+                    android:ellipsize="end"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="2"
+                    android:paddingStart="@dimen/bottom_sheet_padding_text_expandable_part"
+                    android:paddingEnd="@dimen/bottom_sheet_padding_text_expandable_part"
+                    >
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llE3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/vDiv3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_sheet_height_divider"
+                android:layout_margin="@dimen/bottom_sheet_margin_divider_expandable_part"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ibE3"
+                    android:layout_width="@dimen/bottom_sheet_image_button_size"
+                    android:layout_height="@dimen/bottom_sheet_image_button_size"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginStart="@dimen/bottom_sheet_margin_start_expandable_part"
+                    android:layout_marginLeft="@dimen/bottom_sheet_margin_start_expandable_part"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:background="@color/bb_background"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription"
+                    android:clickable="false"
+                    android:focusable="false"
+                    />
+
+                <TextView
+                    android:id="@+id/tvE3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:clickable="false"
+                    android:ellipsize="end"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="2"
+                    android:paddingStart="@dimen/bottom_sheet_padding_text_expandable_part"
+                    android:paddingEnd="@dimen/bottom_sheet_padding_text_expandable_part"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/vDivBottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_sheet_height_divider"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

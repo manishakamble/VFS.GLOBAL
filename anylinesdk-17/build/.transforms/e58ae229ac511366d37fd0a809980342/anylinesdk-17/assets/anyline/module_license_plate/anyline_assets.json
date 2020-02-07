@@ -1,0 +1,10 @@
+{
+    "comment": "Auto generated file. Manual changes will be overwritten.",
+    "immediateAssets": {
+        "anyline/module_license_plate/license_plates_combined.ale": "39663095506957f3f973f90659845ea3",
+        "anyline/module_license_plate/trained_models/LPT.any": "21b72587452554057ad180d12fb9a40d"
+    },
+    "lazyAssets": {
+        
+    }
+}

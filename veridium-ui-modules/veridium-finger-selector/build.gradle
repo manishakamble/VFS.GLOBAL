@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+
+repositories {
+    flatDir { dirs '../../veridium-sdk' }
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionName "1.7"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation rootProject.ext.supportV7
+    implementation(name: 'veridium-fourf-export-release', ext: 'aar')
+    implementation(name: 'veridium-support-release', ext: 'aar')
+}

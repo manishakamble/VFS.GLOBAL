@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iris_capture_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context="com.tascent.mx.android.sdk.internal.iris.IrisCaptureActivity">
+
+    <include layout="@layout/toolbar_capture"
+        android:id="@+id/toolbar_capture"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.tascent.mx.android.sdk.internal.iris.IrisCameraView
+        android:id="@+id/texture_iris_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_capture"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/img_iris_mask"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:textAlignment="center"
+        app:layout_constraintDimensionRatio="H,640:832"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_capture"
+        app:srcCompat="@drawable/iris_mask" />
+
+    <com.tascent.mx.android.sdk.internal.iris.IrisOverlayView
+        android:id="@+id/iris_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_capture"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_iris_quality_check_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/txt_iris_quality_check"
+        app:layout_constraintTop_toBottomOf="@+id/img_iris_mask" />
+
+    <TextView
+        android:id="@+id/txt_iris_quality_check"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/iris_capture_quality_check"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_iris_mask" />
+
+    <ImageView
+        android:id="@+id/img_iris_shake_level"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="42dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_capture"
+        app:srcCompat="@drawable/steady_1"/>
+
+    <TextView
+        android:id="@+id/txt_iris_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_capture" />
+
+    <View
+        android:id="@+id/activity_iris_capture_view_animation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/captureViewIrisAnimationBackgroundColor"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_iris_message"
+        android:layout_marginTop="22dp"/>
+
+    <com.tascent.mx.android.sdk.internal.iris.IrisTimerProgressView
+        android:id="@+id/iris_steady_progress"
+        android:layout_width="200dp"
+        android:layout_height="7dp"
+        android:background="#FF4A4A4A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_iris_message"
+        android:layout_marginTop="22dp"/>
+
+    <ToggleButton
+        android:id="@+id/tgl_iris_flashlight"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/flashlight_toggle_selector"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/activity_iris_capture_mark_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/focus_eye"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_max="61dp"
+        app:layout_constraintWidth_min="61dp"
+        app:layout_constraintHeight_min="61dp"
+        app:layout_constraintHeight_max="61dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"/>
+
+    <RelativeLayout
+        android:id="@+id/activity_iris_loading_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <View
+            android:id="@+id/activity_iris_loading_overlay_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@color/backgroundBlackWithAlpha"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_iris_loading_progress_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="33dp"
+            android:text="@string/iris_capture_processing"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/activity_iris_loading_progress_bar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="209dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/activity_iris_capture_focus_eye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF717373"
+        android:textSize="9sp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/activity_iris_capture_focus_eye_value"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:text="@string/activity_iris_capture_focus_title"
+        />
+
+    <TextView
+        android:id="@+id/activity_iris_capture_focus_eye_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:textColor="#DEFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

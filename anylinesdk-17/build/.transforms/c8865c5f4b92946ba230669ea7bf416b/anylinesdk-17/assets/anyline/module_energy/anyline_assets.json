@@ -1,0 +1,22 @@
+{
+    "comment": "Auto generated file. Manual changes will be overwritten.",
+    "immediateAssets": {
+        "anyline/module_energy/analog_digital_auto_mode.ale": "0bfd49951dc54da747b91c2ebe8aa6ac",
+        "anyline/module_energy/analog_meter.ale": "83d4e8da77e54479c9d1e7b96a304950",
+        "anyline/module_energy/brightness.ale": "10727d3680a84a1a60b7209800d91106",
+        "anyline/module_energy/dial_meter.ale": "a4012d6d579f57ebc7aef95cfe410f1b",
+        "anyline/module_energy/digital_heat_meter.ale": "55fdef01a55c507fe9f42e01decb402d",
+        "anyline/module_energy/digital_meter.ale": "0890bef1be09e532b2c94de50a47acb8",
+        "anyline/module_energy/dot_matrix_meter.ale": "30744a67a6c81d19f1237f62868db5ab",
+        "anyline/module_energy/energy_serial.ale": "9e94471e1e9fbca7c24b72084c672d0d",
+        "anyline/module_energy/energy_serial_alnum_3_letters.ale": "a69e830886ea3af07b05fc0358070cd6",
+        "anyline/module_energy/energy_serial_capital_letters.ale": "161179975acc81ff21198c8e8deb4ac4",
+        "anyline/module_energy/trained_models/CNN_SNr_w_CL_special_whiteList.any": "4bf9f3267d86e430319c13aa5531c0b5",
+        "anyline/module_energy/trained_models/CNN_analog_digital.any": "9fe9c8df928b75f09e67e0e7bddc1daa",
+        "anyline/module_energy/trained_models/CNN_serialnumbers_combined.any": "09ba05a2da40aaf034c82d0b5deed593",
+        "anyline/module_energy/trained_models/digitalCommaSvmModel.any": "937e4b74dfa7eafa11ef25baa0ab0b20"
+    },
+    "lazyAssets": {
+        
+    }
+}

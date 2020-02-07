@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/windowBackground"
+    android:screenOrientation="portrait"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar_update_firmware" />
+
+    <TextView
+        android:id="@+id/activity_update_firmware_message_header_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/graphik_semibold"
+        tools:text="Header"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/activity_update_firmware_message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/graphik_regular"
+        android:gravity="center"
+        tools:text="Message"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/activity_update_firmware_progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:indeterminate="true"
+        android:theme="@style/Tascent.LinearProgress"
+        android:visibility="gone" />
+
+</LinearLayout>

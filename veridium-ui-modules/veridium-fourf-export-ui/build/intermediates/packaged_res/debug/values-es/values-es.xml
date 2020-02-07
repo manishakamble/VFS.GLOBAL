@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hold_fingers_together">Mantenga los dedos juntos</string>
+    <string name="Move_hand_closer">Acerque la mano</string>
+    <string name="Move_hand_down">Mueva la mano hacia abajo</string>
+    <string name="Move_hand_further_away">Aleje la mano</string>
+    <string name="Move_hand_left">Mueva la mano hacia la izquierda</string>
+    <string name="Move_hand_right">Mueva la mano hacia la derecha</string>
+    <string name="Move_hand_up">Mueva la mano hacia arriba</string>
+    <string name="Place_hand_inside_mask">Coloque la mano dentro de la máscara</string>
+    <string name="activity_fourf_complete">Se han verificado \nlas huellas dactilares.</string>
+    <string name="activity_fourf_complete_button_continue">Continuar</string>
+    <string name="activity_fourf_complete_title">Inscripción completa.</string>
+    <string name="activity_fourf_review_button_verify">Verificar</string>
+    <string name="activity_fourf_review_subtitle">Por favor vuelva a escanear\npara verificar.</string>
+    <string name="activity_fourf_review_title">El escaneo de huellas fue exitoso</string>
+    <string name="authenticated">Autenticado</string>
+    <string name="cancel">Cancelar</string>
+    <string name="change_fingers">Por favor cambia los dedos</string>
+    <string name="continue_txt">CONTINUAR</string>
+    <string name="could_not_process">No se pudo procesar el escaneo</string>
+    <string name="eight_f_template_failed">Error en la creación del patrón 8F</string>
+    <string name="failed_capture_retry_prompt">Inténtalo de nuevo</string>
+    <string name="failed_heading">Escaneo fallido</string>
+    <string name="failed_liveness_subheading">No logramos capturar correctamente</string>
+    <string name="failed_subheading">No logramos capturar correctamente</string>
+    <string name="failed_to_verify">No logramos verificar su escaneo.</string>
+    <string name="fingerprint_captured">Huella digital capturada</string>
+    <string name="fourf_failed_advice">Sugerencias: use un fondo plano. Mantenga sus dedos juntos.
+        Limpia la lente de la cámara.</string>
+    <string name="fourf_instructions">Presione \'Continuar\' para iniciar la captura de fotos de sus
+        dedos. Coloque su mano a la vista de la cámara trasera del teléfono, más o menos en la guía.
+        Mantente firme y mantén tus dedos juntos.</string>
+    <string name="got_it">Entiende</string>
+    <string name="hold_still">No muevas</string>
+    <string name="individual_instructions">Presione \'Continuar\' para iniciar la captura de fotos
+        de su dedo. Coloque su dedo en la vista de la cámara trasera del teléfono, más o menos en la
+        guía. Manténgase estable cuando esté verde.</string>
+    <string name="instructions_header">Dirección</string>
+    <string name="left">Izquierda</string>
+    <string name="left_index">Índice izquierdo</string>
+    <string name="left_little">Pequeña izquierda</string>
+    <string name="left_middle">Centro izquierdo</string>
+    <string name="left_ring">Anillo izquierdo</string>
+    <string name="left_thumb">Pulgar izquierdo</string>
+    <string name="liveness_failed_advice">Sugerencias: complete la guía para ambas imágenes. Mueva
+        su mano paralela al teléfono. No cambies el ángulo de tu mano.</string>
+    <string name="merge_f_template_failed">Error en la creación de plantilla fusionada</string>
+    <string name="moving_dots">...</string>
+    <string name="next">SIGUIENTE</string>
+    <string name="ok">OK</string>
+    <string name="passive_failed">La vitalidad pasiva falló</string>
+    <string name="place_fingers_in_template">Buscando</string>
+    <string name="please_change_hands">Por favor cambia de manos</string>
+    <string name="please_move_hand_upwards_for_next_picture">Por favor, mueva la mano hacia
+        arriba\npara ver la siguiente foto</string>
+    <string name="please_verify_by_scanning_again">Compruebe revisando de nuevo</string>
+    <string name="retry">Reintentar</string>
+    <string name="right">Derecha</string>
+    <string name="right_index">Índice derecho</string>
+    <string name="right_little">Derecha poco</string>
+    <string name="right_middle">Centro derecho</string>
+    <string name="right_ring">Anillo derecho</string>
+    <string name="right_thumb">Pulgar derecho</string>
+    <string name="singleDigit_failed_advice">Sugerencias: use un fondo plano. Ajustando qué tan
+        lejos sostienes tu pulgar. Limpia la lente de la cámara.</string>
+    <string name="sorry">Lo siento!</string>
+    <string name="success">¡Éxito!</string>
+    <string name="success_n_scan_complete">¡Éxito!\nExploración completa.</string>
+    <string name="success_nchange_hands">¡Éxito!</string>
+    <string name="success_nfirst_scan_complete">¡Éxito!\nPrimera exploración completa.</string>
+    <string name="success_nsecond_scan_complete">Escanea 2 de 2 completos</string>
+    <string name="take_picture">Tomar foto</string>
+    <string name="taking_picture">Tomando foto</string>
+    <string name="thumb_instructions">Presione \'Continuar\' para iniciar la captura de fotos de su pulgar.
+        Coloque su pulgar a la vista de la cámara trasera del teléfono, más o menos en la guía.
+        Manténgase estable cuando esté verde.</string>
+    <string name="tips">Consejos</string>
+    <string name="tips_message">Mantenga sus dedos juntos y derechos\n\nMantenga su mano lo más estable posible\n\nUsa un fondo neutro</string>
+    <string name="too_close">CERCA</string>
+    <string name="too_far">LEJOS</string>
+    <string name="unsupported_template_format">Formato de patrón no admitido</string>
+    <string name="veridium_fourf_biometrics_activity_4_finger_touchlessid">4 Fingers TouchlessID</string>
+    <string name="you_have_completed_enrollment">Ha completado la inscripción</string>
+    <string name="you_have_completed_hand_nrecognition_authentication">Ha completado la
+        autenticación\nde reconocimiento de manos</string>
+</resources>

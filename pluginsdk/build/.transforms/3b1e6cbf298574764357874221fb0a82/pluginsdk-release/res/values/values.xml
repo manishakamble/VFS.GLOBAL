@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PluginSdk</string>
+    <string name="fingerprint_error_disconnected">Device disconnected</string>
+    <string name="fingerprint_error_not_prepared">Device not ready</string>
+    <string name="fingerprint_error_segments">Fingerprint segmentation failed</string>
+    <string name="fingerprint_localized_name_left_four">(51)</string>
+    <string name="fingerprint_localized_name_left_index">Left Index (7)</string>
+    <string name="fingerprint_localized_name_left_index_and_middle">(43)</string>
+    <string name="fingerprint_localized_name_left_little">Left Little (10)</string>
+    <string name="fingerprint_localized_name_left_middle">Left Middle (8)</string>
+    <string name="fingerprint_localized_name_left_ring">Left Ring (9)</string>
+    <string name="fingerprint_localized_name_left_ring_and_little">(45)</string>
+    <string name="fingerprint_localized_name_left_thumb">Left Thumb (6)</string>
+    <string name="fingerprint_localized_name_not_found">Not found</string>
+    <string name="fingerprint_localized_name_right_four">(52)</string>
+    <string name="fingerprint_localized_name_right_index">Right Index (2)</string>
+    <string name="fingerprint_localized_name_right_index_and_middle">(40)</string>
+    <string name="fingerprint_localized_name_right_little">Right Little (5)</string>
+    <string name="fingerprint_localized_name_right_middle">Right Middle (3)</string>
+    <string name="fingerprint_localized_name_right_ring">Right Ring (4)</string>
+    <string name="fingerprint_localized_name_right_ring_and_little">(42)</string>
+    <string name="fingerprint_localized_name_right_thumb">Right Thumb (1)</string>
+</resources>

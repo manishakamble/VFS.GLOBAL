@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tascent.mx.android.sdk"
+    android:versionCode="1"
+    android:versionName="0.9.6-RC0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="28" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application>
+
+        <!-- This is a workaround for the out o memory problem -->
+        <!-- android:largeHeap="true" > -->
+        <activity
+            android:name="com.tascent.mx.android.sdk.internal.FaceCaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Tascent" />
+        <activity
+            android:name="com.tascent.mx.android.sdk.internal.UsbDeviceAttachedActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/usb_device_filter" />
+        </activity>
+        <activity
+            android:name="com.tascent.mx.android.sdk.internal.iris.IrisCaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Tascent" />
+        <activity
+            android:name="com.tascent.mx.android.sdk.internal.UpdateFirmwareActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Tascent" />
+        <activity
+            android:name="com.tascent.mx.android.sdk.internal.iris.IrisPreCalibrationInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Tascent" />
+        <activity
+            android:name="com.tascent.mx.android.sdk.internal.iris.IrisCalibrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Tascent" />
+        <activity
+            android:name="com.tascent.mx.android.sdk.internal.EPassportCaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Tascent" />
+
+        <service android:name="com.tascent.mx.android.sdk.internal.MediaPlayerService" />
+    </application>
+
+</manifest>
